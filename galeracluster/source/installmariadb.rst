@@ -117,6 +117,14 @@ For Debian-based distributions, in the terminal run the following command:
 
 For RPM-based distributions, instead run this command:
 
+For Galera 10.1 and newer:
+.. code-block:: console
+
+   # yum install MariaDB-client \
+         MariaDB-server \
+	 galera
+
+For Galera 10.0 and older:
 .. code-block:: console
 
    # yum install MariaDB-client \
